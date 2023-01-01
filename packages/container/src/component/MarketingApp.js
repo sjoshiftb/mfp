@@ -8,7 +8,7 @@ const MarketingApp = () => {
         mount(elRef.current);
     }, []);
 
-    return <div ref={elRef} />;
+    return <div ref={elRef} className="mounted-ref" />;
 };
 
 export default MarketingApp;
