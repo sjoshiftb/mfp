@@ -2,7 +2,7 @@ import React from "react";
 import MarketingApp from "./component/MarketingApp";
 
 const App = () => (
-    <div>
+    <div className="marketing-container">
         <MarketingApp />
     </div>
 );
